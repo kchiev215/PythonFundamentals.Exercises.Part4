@@ -8,7 +8,7 @@ def fibonacci(n):
     elif n == 1:
         return b
     else:
-        for i in range(2, n):
+        for i in range(2, n): #this is looping
             c = a + b
             a = b
             b = c
